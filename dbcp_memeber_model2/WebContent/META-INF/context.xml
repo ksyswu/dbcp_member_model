@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+	<!-- name은 connection pool때 불러올 이름 -->
+	<Resource name="jdbc/MySQL" auth="Container" type="javax.sql.DataSource"
+               maxTotal="100" maxIdle="30" maxWaitMillis="10000"
+               removeAbandonedOnBorrow="true"    
+               removeAbandonedOnMaintenance="true"
+               username="root" password="1234"
+               driverClassName="com.mysql.jdbc.Driver"
+               url="jdbc:mysql://localhost:3306/javadb?useSSL=true"/>   
+</Context>
