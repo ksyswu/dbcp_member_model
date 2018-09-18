@@ -65,5 +65,6 @@
 	<button type="button" id="leave">회원탈퇴</button>
 <%-- <%} %> --%>
 </c:if>
+	<a href="http://naver.com">네이버</a>
 </body>
 </html>
